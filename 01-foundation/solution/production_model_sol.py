@@ -5,12 +5,12 @@ class Production(BaseModel):
     id: int
     name: str
     price: float
-    in_stock: True;
+    in_stock: bool = True;
 
 
 
-stored_data = {id:1,'name':'om','pric_in_stock':11.2}
-    # {2,'om',19.2},
+stored_data = {'id':1,'name':'om','price':11.2}
+    
 
 
 production = Production(**stored_data)
