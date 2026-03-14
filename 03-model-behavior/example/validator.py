@@ -11,7 +11,7 @@ class User(BaseModel):
     
 
 
-class SignUpData(BaseModel):``
+class SignUpData(BaseModel):
     username: str
     password: str
 
@@ -30,7 +30,6 @@ class Product(BaseModel):
     @property
     def total_price(self) -> float:
         return self.price * self.quentaty
-    
     
 
     
