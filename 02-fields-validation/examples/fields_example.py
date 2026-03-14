@@ -13,6 +13,6 @@ class BlogPost(BaseModel):
     content: str
     image_url: Optional[str] = None
 
-    
+
 
 
