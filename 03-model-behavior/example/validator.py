@@ -11,7 +11,7 @@ class User(BaseModel):
     
 
 
-class SignUpData(BaseModel):
+class SignUpData(BaseModel):``
     username: str
     password: str
 
