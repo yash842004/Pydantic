@@ -35,8 +35,8 @@ comment = Comment(
     id = 1,
     content = "nice peace of work",
     replies=[
-        Commnet(id = 2,content = "nice")
-        ,Commnet(id = 3, content = "good")
+        Comment(id = 2,content = "nice")
+        ,Comment(id = 3, content = "good")
         ]
 )
 
